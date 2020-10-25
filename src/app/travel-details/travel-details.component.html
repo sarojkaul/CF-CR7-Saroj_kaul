@@ -1,0 +1,12 @@
+<h2>Travelling Details</h2>
+
+
+<div *ngIf="travel">
+    <h3>{{ travel.destination }}</h3>
+    <h4>{{ travel.description }}</h4>
+    <h5>Start date: {{ travel.startdate }} </h5>
+    <h6>Duration: {{ travel.duration }} </h6>
+    <h6>Price: {{ travel.price }} </h6>
+
+</div>
+<button (click)="addToCart(travel)">Book Your Trip</button>

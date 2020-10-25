@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+.jumbotron {
+    background: url('./assets/1.jpg') no-repeat center center;
+    color: white;
+    background-size: cover;
+}
+
+#content {
+    width: 40%;
+    height: 100%;
+    margin-top: 0%;
+    display: flex;
+    float: right;
+}

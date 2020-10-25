@@ -1,0 +1,20 @@
+<h2>Travel Offers</h2>
+<div class="container">
+    <div class="row">
+
+
+        <div class="col-4" *ngFor="let travel of travels; index as travelId">
+
+            <h3>
+                <a [routerLink]="['/travel', travelId]">
+                {{ travel.destination }}
+   </a>
+
+            </h3>
+            <p *ngIf="travel.description">
+                Description: {{ travel.description }}
+            </p>
+
+        </div>
+    </div>
+</div>
