@@ -1,0 +1,2 @@
+I have to created a travel agency web application using Angular.
+I have implementated at 10 components that together build up my project.
